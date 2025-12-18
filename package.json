@@ -1,0 +1,18 @@
+cat > package.json << 'EOF'
+{
+  "name": "orthophonie-app",
+  "version": "0.1.0",
+  "description": "Application d'orthophonie alimentée par l'IA pour améliorer la diction",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": ["orthophonie", "diction", "IA", "speech"],
+  "author": "",
+  "license": "MIT"
+}
+EOF
